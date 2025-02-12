@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!-- saved from url=(0097)https://portal.uet.vnu.edu.vn/courses/622/assignments/6516/submissions/9983?preview=1&rand=814916 -->
+<html dir="ltr" lang="en" style="height: 100%; overflow: auto;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#253B80">
+  <meta name="robots" content="noindex,nofollow">
+  
+  
+  <title>[Bài tập Matlab] Vẽ đồ thị tín hiệu hàm mũ phức: Submission Preview</title>
+
+  <link rel="preload" href="https://cdn.uet.vnu.edu.vn/dist/fonts/lato/extended/Lato-Regular-bd03a2cc27.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://cdn.uet.vnu.edu.vn/dist/fonts/lato/extended/Lato-Bold-cccb897485.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://cdn.uet.vnu.edu.vn/dist/fonts/lato/extended/Lato-Italic-4eb103b4d1.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="stylesheet" href="./fonts-6ee09b0b2f.css" media="screen">
+  <link rel="stylesheet" href="./variables-a3c02037e9b7ee7f0dd7841bdc5782d8.css" media="all">
+  <link rel="stylesheet" href="./common-fe1024251d.css" media="all">
+  <link rel="stylesheet" href="./submission-3abd2690cc.css" media="screen">
+  <link rel="stylesheet" href="./new_user_tutorials-6b15f87caf.css" media="screen">
+  <link rel="apple-touch-icon" href="https://s3.evgcloud.net/uet/account_1/attachments/105/logo-small.png">
+  <link rel="icon" type="image/x-icon" href="https://cdn-files.uet.vnu.edu.vn/uet/account_1/attachments/497330/favicon.ico">
+
+  
+  
+  <script>if (navigator.userAgent.match(/(MSIE|Trident\/)/)) location.replace('/ie-is-not-supported.html')</script>
+  <script>
+    INST = {"environment":"production","allowMediaComments":true,"kalturaSettings":{"domain":"ovp.evgcloud.net","resource_domain":"ovp.evgcloud.net","rtmp_domain":"ovp.evgcloud.net","protocol":"https","partner_id":"102","subpartner_id":"10200","player_ui_conf":"23448171","kcw_ui_conf":"23448165","upload_ui_conf":"23448166","max_file_size_bytes":534773760,"do_analytics":false,"hide_rte_button":true,"js_uploader":true},"logPageViews":true,"editorButtons":[{"name":"YouTube","id":1,"favorite":true,"url":"https://www.edu-apps.org/lti_public_resources/?tool_id=youtube","icon_url":"https://www.edu-apps.org/assets/lti_public_resources/youtube_icon.png","canvas_icon_class":null,"width":560,"height":600,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eSearch publicly available YouTube videos. A new icon will show up in your course rich editor letting you search YouTube and click to embed videos in your course material.\u003c/p\u003e\n"},{"name":"Interactive Content – H5P","id":13,"favorite":false,"url":"https://uet.h5p.com","icon_url":"https://uet.h5p.com/img/h5p-icon.png","canvas_icon_class":null,"width":800,"height":600,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eCreate, share and reuse interactive HTML5 content in your browser\u003c/p\u003e\n"},{"name":"Google Drive (LTI 1.1)","id":105,"favorite":true,"url":"https://assignments.google.com/lti/e","icon_url":"https://www.gstatic.com/images/branding/product/1x/drive_2020q4_16dp.png","canvas_icon_class":null,"width":690,"height":530,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eCollect, analyze, and grade student work with Google Assignments\u003c/p\u003e\n"}]};
+    ENV = {"ASSET_HOST":"https://cdn.uet.vnu.edu.vn","active_brand_config_json_url":"https://cdn.uet.vnu.edu.vn/dist/brandable_css/e6dfd744118a5602eaf3b0c0f7bd6940/variables-a3c02037e9b7ee7f0dd7841bdc5782d8.json","active_brand_config":{"md5":"e6dfd744118a5602eaf3b0c0f7bd6940","variables":{"ic-brand-header-image":"https://cdn-files.uet.vnu.edu.vn/uet/account_1/attachments/497328/Logo-DH-Cong-Nghe-UET-100.png","ic-brand-mobile-global-nav-logo":"https://cdn-files.uet.vnu.edu.vn/uet/account_1/attachments/497329/favicon-256.png","ic-brand-favicon":"https://cdn-files.uet.vnu.edu.vn/uet/account_1/attachments/497330/favicon.ico","ic-brand-apple-touch-icon":"https://s3.evgcloud.net/uet/account_1/attachments/105/logo-small.png","ic-brand-Login-logo":"https://cdn-files.uet.vnu.edu.vn/uet/account_1/attachments/497327/logo-256.png","ic-brand-msapplication-tile-square":"https://cdn-files.uet.vnu.edu.vn/uet/account_1/attachments/497331/logo-256.png","ic-brand-msapplication-tile-wide":"https://cdn-files.uet.vnu.edu.vn/uet/account_1/attachments/497332/logo-256.png","ic-brand-right-sidebar-logo":"https://cdn-files.uet.vnu.edu.vn/uet/account_1/attachments/497333/logo-256.png"},"share":false,"name":null,"created_at":"2025-01-06T15:38:52+07:00","js_overrides":"","css_overrides":"","mobile_js_overrides":"","mobile_css_overrides":"","parent_md5":"0793da2d7b7c3193b051eec6b5ae21ef"},"confetti_branding_enabled":false,"url_to_what_gets_loaded_inside_the_tinymce_editor_css":["https://cdn.uet.vnu.edu.vn/dist/brandable_css/e6dfd744118a5602eaf3b0c0f7bd6940/variables-a3c02037e9b7ee7f0dd7841bdc5782d8.css","https://cdn.uet.vnu.edu.vn/dist/brandable_css/new_styles_normal_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-90e5ad1077.css","https://cdn.uet.vnu.edu.vn/dist/brandable_css/no_variables/bundles/fonts-6ee09b0b2f.css"],"url_for_high_contrast_tinymce_editor_css":["https://cdn.uet.vnu.edu.vn/dist/brandable_css/default/variables-high_contrast-a3c02037e9b7ee7f0dd7841bdc5782d8.css","https://cdn.uet.vnu.edu.vn/dist/brandable_css/new_styles_high_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-795277483f.css","https://cdn.uet.vnu.edu.vn/dist/brandable_css/no_variables/bundles/fonts-6ee09b0b2f.css"],"current_user_id":"9983","current_user_global_id":"10000000009983","current_user_heap_id":"uu-2-6f5b293c618a86eeb6b23a27a1f1be34b056c2846a5eb85d65df0956b41cc803-x6kCNwrEveESUglttTkl0cf4lp0qu3f1ELh8gTJM","current_user_roles":["user","student"],"current_user_is_student":true,"current_user_types":[],"current_user_disabled_inbox":false,"current_user_visited_tabs":null,"discussions_reporting":false,"files_domain":"portal.uet.vnu.edu.vn","group_information":null,"DOMAIN_ROOT_ACCOUNT_ID":"10000000000001","DOMAIN_ROOT_ACCOUNT_UUID":"x6kCNwrEveESUglttTkl0cf4lp0qu3f1ELh8gTJM","k12":false,"help_link_name":"Help","help_link_icon":"help","use_high_contrast":false,"auto_show_cc":false,"disable_celebrations":false,"disable_keyboard_shortcuts":false,"LTI_LAUNCH_FRAME_ALLOWANCES":["geolocation *","microphone *","camera *","midi *","encrypted-media *","autoplay *","clipboard-write *","display-capture *"],"DEEP_LINKING_POST_MESSAGE_ORIGIN":"https://portal.uet.vnu.edu.vn","comment_library_suggestions_enabled":false,"SETTINGS":{"open_registration":false,"collapse_global_nav":false,"release_notes_badge_disabled":false,"can_add_pronouns":true,"show_sections_in_course_tray":true},"RAILS_ENVIRONMENT":"production","IN_PACED_COURSE":false,"DIRECT_SHARE_ENABLED":false,"CAN_VIEW_CONTENT_SHARES":false,"FEATURES":{"featured_help_links":false,"account_level_blackout_dates":true,"render_both_to_do_lists":false,"commons_new_quizzes":false,"course_paces_redesign":false,"course_paces_for_students":false,"explicit_latex_typesetting":false,"media_links_use_attachment_id":false,"permanent_page_links":false,"selective_release_backend":false,"selective_release_ui_api":false,"selective_release_edit_page":false,"enhanced_course_creation_account_fetching":false,"instui_for_import_page":false,"multiselect_gradebook_filters":false,"assignment_edit_placement_not_on_announcements":false,"platform_service_speedgrader":false,"instui_header":false,"rce_find_replace":false,"courses_popout_sisid":false,"dashboard_graphql_integration":false,"discussion_checkpoints":false,"speedgrader_studio_media_capture":true,"product_tours":false,"usage_rights_discussion_topics":false,"granular_permissions_manage_users":true,"create_course_subaccount_picker":true,"file_verifiers_for_quiz_links":true,"lti_deep_linking_module_index_menu_modal":false,"lti_dynamic_registration":false,"lti_registrations_next":false,"lti_multiple_assignment_deep_linking":false,"lti_overwrite_user_url_input_select_content_dialog":true,"buttons_and_icons_root_account":false,"extended_submission_state":false,"scheduled_page_publication":false,"send_usage_metrics":false,"rce_transform_loaded_content":false,"mobile_offline_mode":true,"react_discussions_post":false,"instui_nav":false,"enhanced_developer_keys_tables":false,"lti_registrations_discover_page":false,"account_level_mastery_scales":false,"non_scoring_rubrics":true,"top_navigation_placement":false,"rubric_criterion_range":true,"lti_migration_info":false,"rce_lite_enabled_speedgrader_comments":false,"lti_toggle_placements":false,"embedded_release_notes":true,"canvas_k6_theme":false,"new_math_equation_handling":true},"current_user":{"id":"9983","anonymous_id":"7pb","display_name":"Đặng Đức Duy","avatar_image_url":"https://portal.uet.vnu.edu.vn/images/messages/avatar-50.png","html_url":"https://portal.uet.vnu.edu.vn/about/9983","pronouns":null,"avatar_is_fallback":true,"email":"23020347@vnu.edu.vn"},"current_user_is_admin":false,"context_asset_string":"course_622","ping_url":"https://portal.uet.vnu.edu.vn/api/v1/courses/622/ping","TIMEZONE":"Asia/Bangkok","CONTEXT_TIMEZONE":"Asia/Bangkok","LOCALES":["en"],"BIGEASY_LOCALE":"en_US","FULLCALENDAR_LOCALE":"en","MOMENT_LOCALE":"en","rce_auto_save_max_age_ms":86400000,"K5_USER":false,"USE_CLASSIC_FONT":false,"K5_HOMEROOM_COURSE":false,"K5_SUBJECT_COURSE":false,"LOCALE_TRANSLATION_FILE":"/dist/javascripts/translations/en-67c25a6858.json","ACCOUNT_ID":"1","user_cache_key":"NVBoY3FtVVlCR2NXR291OTlPeDNaejNQdHc1T3FsOXZ1TWFxYWxkaHZ5Zlc9\nO1twLTA/OntQXz1IVXBncmFxZTtuamFsa2hwdm9pdWxraW1tYXFld2c=\n","current_context":{"id":"622","name":"Tín hiệu và hệ thống (2425I_ELT2035_37)","type":"Course","url":"https://portal.uet.vnu.edu.vn/courses/622"},"CONTEXT_ACTION_SOURCE":"submissions","EMOJIS_ENABLED":false,"EMOJI_DENY_LIST":null,"badge_counts":{"submissions":1},"notices":[],"active_context_tab":null};
+    BRANDABLE_CSS_HANDLEBARS_INDEX = [["new_styles_normal_contrast","new_styles_high_contrast","new_styles_normal_contrast_rtl","new_styles_high_contrast_rtl"],{"10":["908ffbc673",0,"d5c9044c6e",2],"15":["c8540c43a4",0,"0a2196be1d",2],"19":["df5777ed9c"],"61":["1fb36890db","b83a603352","4bcf82f85a","0b171e092c"],"67":["700335fb7b",0,"1cc2485e2c",2],"71":["8ac0336ef0","bf3093677a","a8146a011b","449171073f"],"06":["ba28819778",0,"96b99aafe5",2],"f0":["b349f31f5e",0,0,0],"c8":["718c8509f5","33cd4c40e3","03d0fbcbe8","ec23096f0d"],"1e":["6eb4ecac8e","4100cb65ce","0faf4716c8","bed54fd75e"],"b3":["e5da23fb43","0911fc8ed3","05b2bb5a6f","ba2585de5c"],"0c":["4dae5befd2",0,"c18876be89",2],"da":["b5a7f9cd8f","a4e5066985","773390ae11","8e9071910c"],"1d":["2128789890",0,"e568085637",2],"08":["64bff5a97d"],"e2":["11429f119a"],"9f":["d39b291ba6",0,0,0],"2b":["c491abf31e","b11dc54da6","b58622671f","6bb4a7ae9e"],"2c":["8a926fc28b",0,0,0],"c2":["6f2721ae01"],"9c":["c31821c764",0,"1693aba1da",2],"c5":["44c6024769","31150a4a27","53dd277fa9","5fe61c91c2"],"f2":["51574f9b13"]}]
+    REMOTES = {};
+  </script>
+  <script src="./variables-a3c02037e9b7ee7f0dd7841bdc5782d8.js.tải xuống" defer="defer"></script>
+  <script src="./Bangkok-5663a6e501.js.tải xuống" defer="defer"></script>
+  <script src="./Bangkok-5663a6e501.js.tải xuống" defer="defer"></script>
+  <script src="./en_US-80a0ce259b.js.tải xuống" defer="defer"></script>
+  <script src="./react-entry-5896af5079f61928.js.tải xuống" crossorigin="anonymous" defer="defer"></script>
+  <script src="./main-entry-e4459fd50a05300e.js.tải xuống" crossorigin="anonymous" defer="defer"></script>
+<script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('submissions_show_preview_text');
+//]]>
+</script>
+  
+  
+<style type="text/css"></style><link data-webpack="canvas-lms:chunk-68741" rel="stylesheet" href="./68741-chunk-78f47b31498a85a8.css"><style id="inert-style">
+[inert] {
+  pointer-events: none;
+  cursor: default;
+}
+
+[inert], [inert] * {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+</style></head>
+
+<body class="is-inside-submission-frame no-headers primary-nav-expanded full-width context-course_622 webkit chrome no-touch" style="height: 100%; overflow: auto;">
+
+<noscript>
+  <div role="alert" class="ic-flash-static ic-flash-error">
+    <div class="ic-flash__icon" aria-hidden="true">
+      <i class="icon-warning"></i>
+    </div>
+    <h1>You need to have JavaScript enabled in order to access this site.</h1>
+  </div>
+</noscript>
+
+
+
+
+<div id="flash_message_holder"></div>
+<div id="flash_screenreader_holder" role="alert" aria-live="assertive" aria-relevant="additions" class="screenreader-only" aria-atomic="true"></div>
+
+<div id="application" class="ic-app">
+  
+
+  <div id="instructure_ajax_error_box">
+    <div style="text-align: right; background-color: #fff;"><a href="https://portal.uet.vnu.edu.vn/courses/622/assignments/6516/submissions/9983?preview=1&amp;rand=814916#" class="close_instructure_ajax_error_box_link">Close</a></div>
+    <iframe id="instructure_ajax_error_result" src="./saved_resource(1).html" style="border: 0;" title="Error"></iframe>
+  </div>
+
+  <div id="wrapper" class="ic-Layout-wrapper">
+        <div class="ic-app-nav-toggle-and-crumbs no-print">
+
+          <div class="ic-app-crumbs ">
+              <nav id="breadcrumbs" role="navigation" aria-label="breadcrumbs" style=""><ul><li class="home"><a href="https://portal.uet.vnu.edu.vn/"><span class="ellipsible"><i class="icon-home" title="My Dashboard">
+  <span class="screenreader-only">My Dashboard</span>
+</i>
+</span></a></li><li><a href="https://portal.uet.vnu.edu.vn/courses/622"><span class="ellipsible">2425I_ELT2035_37</span></a></li></ul></nav>
+          </div>
+
+
+          <div class="right-of-crumbs">
+              
+          </div>
+
+        </div>
+    <div id="main" class="ic-Layout-columns">
+      <div id="not_right_side" class="ic-app-main-content">
+        <div id="content-wrapper" class="ic-Layout-contentWrapper">
+          
+          <div id="content" class="ic-Layout-contentMain" role="main">
+            
+
+
+
+
+  <div style="text-align: right; margin-top: 15px;">
+    <select class="data_view">
+      <option aria-label="Assignment [Bài tập Matlab] Vẽ đồ thị tín hiệu hàm mũ phức submission Paper View" value="paper">Paper View</option>
+      <option aria-label="Assignment [Bài tập Matlab] Vẽ đồ thị tín hiệu hàm mũ phức submission Plain Text View" value="plain_text">Plain Text View</option>
+    </select>
+    
+
+  </div>
+  <div id="submission_preview" class="paper user_content enhanced" data-resource-type="assignment.submission" data-resource-id="249034">
+    <p><span class="instructure_file_holder link_holder instructure_file_link_holder"><a class="inline_disabled preview_in_overlay" title="btvn (1).txt" href="https://portal.uet.vnu.edu.vn/users/9983/files/192431?verifier=Jda76l44RcvxE2wurUxZIeV3os9fQAOHnoxXLfxL&amp;wrap=1" target="_blank" data-canvas-previewable="true">btvn (1).txt</a><a class="file_download_btn" role="button" download="" style="margin-inline-start: 5px; text-decoration: none;" href="https://portal.uet.vnu.edu.vn/users/9983/files/192431/download?verifier=Jda76l44RcvxE2wurUxZIeV3os9fQAOHnoxXLfxL&amp;download_frd=1"><span role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
+    <path d="m1807.093 1482.477 79.736 79.963-355.313 355.312H355.346L.035 1562.44l79.85-79.963 322.22 322.334H1484.76l322.334-322.334ZM997.677-.033v1167.02l355.313-355.313 79.962 79.85-491.858 491.633L449.46 891.524l79.962-79.85 355.313 355.313V-.033h112.941Z" fill-rule="evenodd"></path>
+</svg>
+</span><span class="screenreader-only">Download btvn (1).txt</span></a></span></p>
+  </div>
+
+          </div>
+        </div>
+        <div id="right-side-wrapper" class="ic-app-main-content__secondary">
+          <aside id="right-side" role="complementary">
+            
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div style="display:none;"><!-- Everything inside of this should always stay hidden -->
+    </div>
+  <div id="aria_alerts" class="hide-text affix" role="alert" aria-live="assertive"></div>
+  <div id="StudentTray__Container"></div>
+    <div class="NewUserTutorialTray__Container"></div>
+  <div id="react-router-portals"></div>
+  
+
+  <iframe src="./post_message_forwarding(1).html" name="post_message_forwarding" title="post_message_forwarding" id="post_message_forwarding" sandbox="allow-scripts allow-same-origin" style="display:none;"></iframe>
+
+
+  <script>
+    Object.assign(
+      ENV,
+      {}
+    )
+  </script>
+
+
+  
+
+</div> <!-- #application -->
+
+
+</body></html>
